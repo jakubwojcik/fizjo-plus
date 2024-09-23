@@ -3,7 +3,8 @@ import { useAtom, useAtomValue } from "jotai";
 
 import { searchResultsAtom, searchTermAtom } from "@/atoms/searchAtom.ts";
 import { supabase } from "@/lib/supabase";
-import { DBTables, SearchResultSchema } from "@/types";
+import { DBTables } from "@/types/db";
+import { SearchResultSchema } from "@/types/search";
 
 export const SEARCH_QUERY_KEY = "search";
 

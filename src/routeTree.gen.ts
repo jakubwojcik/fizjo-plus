@@ -17,16 +17,10 @@ import { Route as LogoutImport } from './routes/logout'
 
 // Create Virtual Routes
 
-const RegisterLazyImport = createFileRoute('/register')()
 const LoginLazyImport = createFileRoute('/login')()
 const IndexLazyImport = createFileRoute('/')()
 
 // Create/Update Routes
-
-const RegisterLazyRoute = RegisterLazyImport.update({
-  path: '/register',
-  getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/register.lazy').then((d) => d.Route))
 
 const LoginLazyRoute = LoginLazyImport.update({
   path: '/login',
@@ -68,13 +62,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LoginLazyImport
       parentRoute: typeof rootRoute
     }
-    '/register': {
-      id: '/register'
-      path: '/register'
-      fullPath: '/register'
-      preLoaderRoute: typeof RegisterLazyImport
-      parentRoute: typeof rootRoute
-    }
   }
 }
 
@@ -84,14 +71,12 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexLazyRoute
   '/logout': typeof LogoutRoute
   '/login': typeof LoginLazyRoute
-  '/register': typeof RegisterLazyRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexLazyRoute
   '/logout': typeof LogoutRoute
   '/login': typeof LoginLazyRoute
-  '/register': typeof RegisterLazyRoute
 }
 
 export interface FileRoutesById {
@@ -99,15 +84,14 @@ export interface FileRoutesById {
   '/': typeof IndexLazyRoute
   '/logout': typeof LogoutRoute
   '/login': typeof LoginLazyRoute
-  '/register': typeof RegisterLazyRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/logout' | '/login' | '/register'
+  fullPaths: '/' | '/logout' | '/login'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/logout' | '/login' | '/register'
-  id: '__root__' | '/' | '/logout' | '/login' | '/register'
+  to: '/' | '/logout' | '/login'
+  id: '__root__' | '/' | '/logout' | '/login'
   fileRoutesById: FileRoutesById
 }
 
@@ -115,14 +99,12 @@ export interface RootRouteChildren {
   IndexLazyRoute: typeof IndexLazyRoute
   LogoutRoute: typeof LogoutRoute
   LoginLazyRoute: typeof LoginLazyRoute
-  RegisterLazyRoute: typeof RegisterLazyRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexLazyRoute: IndexLazyRoute,
   LogoutRoute: LogoutRoute,
   LoginLazyRoute: LoginLazyRoute,
-  RegisterLazyRoute: RegisterLazyRoute,
 }
 
 export const routeTree = rootRoute
@@ -139,8 +121,7 @@ export const routeTree = rootRoute
       "children": [
         "/",
         "/logout",
-        "/login",
-        "/register"
+        "/login"
       ]
     },
     "/": {
@@ -151,9 +132,6 @@ export const routeTree = rootRoute
     },
     "/login": {
       "filePath": "login.lazy.tsx"
-    },
-    "/register": {
-      "filePath": "register.lazy.tsx"
     }
   }
 }

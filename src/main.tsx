@@ -1,4 +1,6 @@
 import "./styles/globals.css";
+import "@fontsource-variable/raleway";
+import "@fontsource/roboto";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createRouter, RouterProvider } from "@tanstack/react-router";

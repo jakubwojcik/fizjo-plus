@@ -43,3 +43,4 @@ npm-debug.log*
 
 # Optional stylelint cache
 .stylelintcache
+.aider*

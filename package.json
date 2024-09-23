@@ -1,5 +1,5 @@
 {
-  "name": "protected-supabase-vite-starter",
+  "name": "fizjo-plus",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -7,7 +7,7 @@
     "root": true
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite -d",
     "build": "tsc -b && vite build",
     "format:check": "prettier . --check",
     "format:write": "prettier . --write",
@@ -17,6 +17,8 @@
     "pre-push-checks": "npm run format:check && npm run lint && npm run build"
   },
   "dependencies": {
+    "@fontsource-variable/raleway": "^5.1.0",
+    "@fontsource/roboto": "^5.1.0",
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-navigation-menu": "^1.2.0",
@@ -30,8 +32,10 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.6",
+    "install": "^0.13.0",
     "jotai": "^2.10.0",
     "lucide-react": "^0.445.0",
+    "npm": "^10.8.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.0",

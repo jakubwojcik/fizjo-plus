@@ -85,12 +85,6 @@ export const Index = () => {
         <Button className="w-full" type="submit">
           Log in
         </Button>
-        <p className="text-center text-sm text-muted-foreground">
-          Want to create a new account?
-          <Button onClick={() => navigate({ to: "/register" })} variant="link">
-            Sign up
-          </Button>
-        </p>
       </form>
     </Form>
   );

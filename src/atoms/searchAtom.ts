@@ -1,6 +1,6 @@
 import { atom } from "jotai";
 
-import { SearchResultSchema } from "@/types";
+import { SearchResultSchema } from "@/types/search";
 
 export const searchTermAtom = atom("");
 
