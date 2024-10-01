@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "howCanIHelp": "Jak mogę pomóc",
+    "pricing": "Cennik",
+    "bookAppointment": "Umów wizytę",
+    "treatmentMethods": "Metody leczenia",
+    "aboutMe": "O mnie",
+    "contact": "Kontakt",
+    "faq": "FAQ"
+  },
+  "introductionBanner": {
+    "motto": "W Fizjo+ dokładnie analizuję problem każdego Pacjenta, aby stworzyć indywidualny plan terapii.<br><br>Moją misją jest nie tylko łagodzenie bólu podczas wizyty, ale przede wszystkim przywracanie pełnej sprawności i poprawa jakości życia."
+  },
+  "sections": {
+    "bookAppointment": {
+      "title": "<blue>Umów wizytę</blue>, by zadbać o swoje zdrowie",
+      "content": "[TODO]"
+    },
+    "howCanIHelp": {
+      "title": "<blue>Jak mogę pomóc</blue> wrócić do pełnej sprawności?",
+      "content": "Skupiam się na szybkim i skutecznym leczeniu dolegliwości, stosując sprawdzone i bezpieczne metody terapeutyczne.<br><br><list>Oferuję m.in.:<listitem>rehabilitację ortopedyczną,</listitem> <listitem>sportową,</listitem><listitem>pourazową,</listitem><listitem>neurologiczną,</listitem><listitem>geriatryczną,</listitem><listitem>korekcję wad postawy.</listitem></list></list><br>Oferuję również wizyty domowe.<br><br>Mój gabinet charakteryzuje dogodna lokalizacja blisko centrum miasta, a nowoczesne wyposażenie i stałe poszerzanie przeze mnie kompetencji zawodowych sprzyjają Pacjentom w szybkim powrocie do pełni zdrowia."
+    },
+    "pricing": {
+      "title": "<blue>Cennik</blue> świadczonych przeze mnie usług",
+      "content": "[TODO]"
+    },
+    "treatmentMethods": {
+      "title": "<blue>Metody leczenia</blue>, które stosuję",
+      "content": "[TODO]"
+    },
+    "aboutMe": {
+      "title": "<blue>O mnie</blue> i moim doświadczeniu",
+      "content": "[TODO]"
+    },
+    "faq": {
+      "title": "<blue>FAQ</blue>, czyli najczęściej zadawane pytania",
+      "content": "[TODO]"
+    }
+  }
+}

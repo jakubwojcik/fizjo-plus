@@ -20,16 +20,10 @@ export const theme = {
     },
   },
   extend: {
-    fontFamily: {
-      sans: ["Roboto", ...defaultFontFamily.sans],
-      raleway: ["Raleway Variable", "sans-serif"],
-    },
-    cursor: {
-      jakub: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🦄</text></svg>") 16 0, auto`,
-    },
     animation: {
       "accordion-down": "accordion-down 0.2s ease-out",
       "accordion-up": "accordion-up 0.2s ease-out",
+      rotate: "rotate 5s linear infinite",
     },
     borderRadius: {
       lg: "var(--radius)",
@@ -69,6 +63,22 @@ export const theme = {
       secondary: {
         DEFAULT: "hsl(var(--secondary))",
         foreground: "hsl(var(--secondary-foreground))",
+      },
+    },
+    flexGrow: {
+      2: 2,
+      3: 3,
+      4: 4,
+      5: 5,
+    },
+    fontFamily: {
+      raleway: ["Raleway Variable", "sans-serif"],
+      sans: ["Roboto", ...defaultFontFamily.sans],
+    },
+    keyframes: {
+      rotate: {
+        "0%": { transform: "rotate(0)" },
+        "100%": { transform: "rotate(360deg)" },
       },
     },
     keyframes: {

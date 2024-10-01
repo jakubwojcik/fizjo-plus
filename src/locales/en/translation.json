@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "howCanIHelp": "How Can I Help",
+    "pricing": "Pricing",
+    "bookAppointment": "Book Appointment",
+    "treatmentMethods": "Treatment Methods",
+    "aboutMe": "About Me",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "introductionBanner": {
+    "motto": "At Fizjo+ I thoroughly analyze each patient's problem to create an individual therapy plan.<br><br>My mission is not only to relieve pain during a visit, but above all to restore full fitness and improve the quality of life."
+  },
+  "sections": {
+    "bookAppointment": {
+      "title": "<blue>Book an appointment</blue> to take care of your health",
+      "content": "[TODO]"
+    },
+    "howCanIHelp": {
+      "title": "<blue>How can I help</blue> you return to full fitness?",
+      "content": "I focus on fast and effective treatment of ailments, using proven and safe therapeutic methods.<br><br><list>I offer, among others:<listitem>orthopedic rehabilitation,</listitem><listitem>sports,</listitem><listitem>post-traumatic,</listitem><listitem>neurological,</listitem><listitem>geriatric,</listitem><listitem>correction of posture defects.</listitem></list></list><br>I also offer home visits.<br><br>My office is conveniently located near the city center, and modern equipment and constant expansion of my professional competences help patients quickly return to full health."
+    },
+    "pricing": {
+      "title": "<blue>Pricing</blue> of services provided by me",
+      "content": "[TODO]"
+    },
+    "treatmentMethods": {
+      "title": "<blue>Treatment methods</blue> that I use",
+      "content": "[TODO]"
+    },
+    "aboutMe": {
+      "title": "<blue>About me</blue> and my experience",
+      "content": "[TODO]"
+    },
+    "faq": {
+      "title": "<blue>FAQ</blue>, or frequently asked questions",
+      "content": "[TODO]"
+    }
+  }
+}
