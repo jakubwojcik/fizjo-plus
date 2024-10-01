@@ -8,4 +8,4 @@ on:
 
 jobs:
   validate:
-    uses: ./.github/workflows/common/common-validate.yml
+    uses: ./.github/workflows/common-validate.yml
