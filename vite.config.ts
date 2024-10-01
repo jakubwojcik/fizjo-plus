@@ -6,6 +6,7 @@ import { VitePWA as pwa } from "vite-plugin-pwa";
 import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
+  base: process.env.GITHUB_REPOSITORY ? `/fizjo-plus/` : "/",
   plugins: [
     react(),
     tanstackRouter(),

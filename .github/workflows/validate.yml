@@ -1,4 +1,4 @@
-name: CI
+name: Validate build
 on:
   push:
     branches: [main]
