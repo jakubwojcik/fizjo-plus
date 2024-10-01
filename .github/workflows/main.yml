@@ -1,4 +1,4 @@
-name: Deploy main to GitHub Pages
+name: Validate and deploy main branch
 
 on:
   push:
