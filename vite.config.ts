@@ -7,14 +7,6 @@ import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
   base: process.env.GITHUB_REPOSITORY ? `/fizjo-plus/` : "/",
-  define: {
-    "import.meta.env.VITE_SUPABASE_ANON_KEY": JSON.stringify(
-      process.env.VITE_SUPABASE_ANON_KEY,
-    ),
-    "import.meta.env.VITE_SUPABASE_URL": JSON.stringify(
-      process.env.VITE_SUPABASE_URL,
-    ),
-  },
   plugins: [
     react(),
     tanstackRouter(),
