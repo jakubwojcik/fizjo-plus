@@ -1,12 +1,6 @@
 name: Common validate workflow
 
-on:
-  workflow_call:
-    secrets:
-      VITE_SUPABASE_URL:
-        required: false
-      VITE_SUPABASE_ANON_KEY:
-        required: false
+on: workflow_call
 
 jobs:
   common-validate:
@@ -31,10 +25,7 @@ jobs:
         run: npm run lint
 
       - name: Build
-        id: build_step
-        env:
-          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        id: build_stepnp
         run: npm run build
 
       - name: Upload build artifact
