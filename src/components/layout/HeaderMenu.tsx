@@ -27,9 +27,9 @@ export const HeaderMenu = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <Button className="hover:shadow-aura-booksy w-60 bg-booksy hover:bg-booksy-hover transition-shadow duration-[100] ease-in-out font-bold px-4">
-            {t("introductionBanner.cta")}
-            <BooksyLogo className="invert ml-1 mt-[2px]" height={16} />
+          <Button className="hover:shadow-aura-booksy bg-booksy hover:bg-booksy-hover transition-shadow duration-[100] ease-in-out font-bold px-4 md:px-8">
+            <div>{t("introductionBanner.cta")}</div>
+            <BooksyLogo className="invert ml-1 mt-[2px] -me-2" height={16} />
           </Button>
         </a>
       </div>
