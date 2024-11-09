@@ -32,7 +32,7 @@ export const theme = {
       sm: "calc(var(--radius) - 4px)",
     },
     boxShadow: {
-      "aura-booksy": "0 0 8px 4px rgba(0, 163, 173, 0.75)",
+      "aura-booksy": "0 0 8px 4px rgba(0, 163, 173, 0.5)",
     },
     colors: {
       accent: {
