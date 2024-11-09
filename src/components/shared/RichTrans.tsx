@@ -8,7 +8,7 @@ interface RichTransProps {
 export const RichTrans = ({ components = {}, i18nKey }: RichTransProps) => (
   <Trans
     components={{
-      blue: <span className="text-blue-600" />,
+      blue: <span className="text-booksy" />,
       br: <br />,
       list: <ul className="list-disc p-0 space-y-1" />,
       listitem: <li className="ml-5" />,

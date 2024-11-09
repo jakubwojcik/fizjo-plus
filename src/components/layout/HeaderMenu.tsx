@@ -1,19 +1,37 @@
-import { Logo } from "@/components/layout/Logo.tsx";
+import { Link } from "@tanstack/react-router";
+import { useTranslation } from "react-i18next";
+
+import BooksyLogo from "@/assets/logos/booksy_dark_h.svg?react";
+import FizjoPlusLogo from "@/assets/logos/fizjoplus_old.svg?react";
+import { Button } from "@/components/ui-library/button";
+import { FIZJO_PLUS_BOOKSY_URL } from "@/constants";
 import { menuLinks } from "@/constants/ui";
 import { useHashScroll } from "@/hooks/useHashScroll";
 
 import { DesktopMenu } from "./DesktopMenu";
-import { MobileMenu } from "./MobileMenu";
 
 export const HeaderMenu = () => {
+  const { t } = useTranslation();
   useHashScroll();
 
   return (
-    <div className="bg-foreground fixed w-full z-10">
+    <div className="bg-foreground fixed w-full z-10 py-2">
       <div className="max-w-screen-lg mx-auto flex justify-between items-center px-3 py-3">
-        <Logo />
+        <Link className="h-10" to="/">
+          <FizjoPlusLogo />
+        </Link>
         <DesktopMenu links={menuLinks} />
-        <MobileMenu links={menuLinks} />
+        {/* <MobileMenu links={menuLinks} /> */}
+        <a
+          href={FIZJO_PLUS_BOOKSY_URL}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Button className="hover:shadow-aura-booksy w-60 bg-booksy hover:bg-booksy-hover transition-shadow duration-[100] ease-in-out font-bold px-4">
+            {t("introductionBanner.cta")}
+            <BooksyLogo className="invert ml-1 mt-[2px]" height={16} />
+          </Button>
+        </a>
       </div>
     </div>
   );

@@ -5,11 +5,11 @@ import michalCwikSignature from "@/assets/michal_cwik_signature.svg";
 
 export const IntroductionBanner = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row w-full border-b-2 border-gray-300 gap-2 pt-6 pb-2 md:pb-0">
-      <div className="flex md:items-end shrink-0 sm:w-full md:w-auto justify-end md:justify-normal">
+    <div className="flex flex-col-reverse sm:flex-row w-full border-b-2 border-gray-700 gap-2 pt-6 md:pb-0">
+      <div className="flex self-start sm:self-end items-end shrink-0 w-auto justify-normal">
         <img
           alt="Portrait of Michał Ćwik"
-          className="h-52 hidden md:block"
+          className="h-32 md:h-52"
           src={michalCwikPortrait}
         />
 
@@ -19,7 +19,7 @@ export const IntroductionBanner = () => {
           src={michalCwikSignature}
         />
       </div>
-      <div className="flex items-center py-2">
+      <div className="flex flex-col items-end justify-around py-2">
         <p className="text-right">
           <Trans
             components={{ break: <br /> }}

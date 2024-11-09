@@ -17,6 +17,7 @@ export const theme = {
     padding: "2rem",
     screens: {
       "2xl": "1400px",
+      xs: "360px",
     },
   },
   extend: {
@@ -30,12 +31,17 @@ export const theme = {
       md: "calc(var(--radius) - 2px)",
       sm: "calc(var(--radius) - 4px)",
     },
+    boxShadow: {
+      "aura-booksy": "0 0 8px 4px rgba(0, 163, 173, 0.75)",
+    },
     colors: {
       accent: {
         DEFAULT: "hsl(var(--accent))",
         foreground: "hsl(var(--accent-foreground))",
       },
       background: "hsl(var(--background))",
+      booksy: "#00a3ad",
+      "booksy-hover": "#52B6BE",
       border: "hsl(var(--border))",
       card: {
         DEFAULT: "hsl(var(--card))",
