@@ -6,7 +6,6 @@ import faviconInjectPlugin from "vite-plugin-favicons-inject";
 import svgrPlugin from "vite-plugin-svgr";
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? `/fizjo-plus/` : "/",
   plugins: [
     react(),
     tanstackRouterPlugin(),
