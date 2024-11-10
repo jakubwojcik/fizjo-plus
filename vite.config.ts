@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     tanstackRouterPlugin(),
     svgrPlugin(),
-    faviconInjectPlugin("./src/assets/logos/fizjoplus_favicon-source.svg"),
+    faviconInjectPlugin("./src/assets/logos/fizjoplus_favicon_source.svg"),
   ],
   resolve: {
     alias: {
