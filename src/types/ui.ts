@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type MenuLink = {
   href: string;
   title: string;
@@ -9,4 +11,10 @@ export type Section = {
   contentKey: string;
   linkHash: string;
   linkKey: string;
+};
+
+export type TimelineStep = {
+  title: string;
+  content?: string | ReactNode;
+  component?: ReactNode;
 };

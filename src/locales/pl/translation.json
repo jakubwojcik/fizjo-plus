@@ -6,7 +6,9 @@
     "treatmentMethods": "Metody leczenia",
     "aboutMe": "O mnie",
     "contact": "Kontakt",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "services": "Usługi",
+    "firstVisit": "Pierwsza wizyta"
   },
   "introductionBanner": {
     "cta": "Umów przez ",
@@ -15,27 +17,199 @@
   "sections": {
     "bookAppointment": {
       "title": "<blue>Umów wizytę</blue>, by zadbać o swoje zdrowie",
-      "content": "[TODO]"
+      "content": "Zarezerwuj wizytę w dogodnym terminie i zadbaj o swoje zdrowie.",
+      "options": {
+        "online": {
+          "title": "Online",
+          "description": "Zarezerwuj wizytę przez portal Booksy"
+        },
+        "phone": {
+          "title": "Telefonicznie",
+          "description": "Zadzwoń do nas i umów się na wizytę"
+        }
+      }
     },
     "howCanIHelp": {
       "title": "<blue>Jak mogę pomóc</blue> wrócić do pełnej sprawności?",
-      "content": "Skupiam się na szybkim i skutecznym leczeniu dolegliwości, stosując sprawdzone i bezpieczne metody terapeutyczne.<br><br><list>Oferuję m.in.:<listitem>rehabilitację ortopedyczną,</listitem> <listitem>sportową,</listitem><listitem>pourazową,</listitem><listitem>neurologiczną,</listitem><listitem>geriatryczną,</listitem><listitem>korekcję wad postawy.</listitem></list></list><br>Oferuję również wizyty domowe.<br><br>Mój gabinet charakteryzuje dogodna lokalizacja blisko centrum miasta, a nowoczesne wyposażenie i stałe poszerzanie przeze mnie kompetencji zawodowych sprzyjają Pacjentom w szybkim powrocie do pełni zdrowia."
+      "content": "Skupiam się na szybkim i skutecznym leczeniu dolegliwości, stosując sprawdzone i bezpieczne metody terapeutyczne.",
+      "services": {
+        "orthopedic": {
+          "title": "Rehabilitacja ortopedyczna",
+          "description": "Kompleksowe leczenie schorzeń układu ruchu"
+        },
+        "sports": {
+          "title": "Rehabilitacja sportowa",
+          "description": "Powrót do aktywności fizycznej po kontuzjach",
+          "image": "/services/sports.jpg"
+        },
+        "postTrauma": {
+          "title": "Rehabilitacja pourazowa",
+          "description": "Przywracanie sprawności po urazach",
+          "image": "/services/post-trauma.jpg"
+        },
+        "neurological": {
+          "title": "Rehabilitacja neurologiczna",
+          "description": "Terapia schorzeń układu nerwowego",
+          "image": "/services/neurological.jpg"
+        },
+        "geriatric": {
+          "title": "Rehabilitacja geriatryczna",
+          "description": "Poprawa sprawności osób starszych",
+          "image": "/services/geriatric.jpg"
+        },
+        "posture": {
+          "title": "Korekcja wad postawy",
+          "description": "Diagnostyka i leczenie wad postawy",
+          "image": "/services/posture.jpg"
+        }
+      },
+      "additional": {
+        "homeVisits": "Oferuję również wizyty domowe",
+        "location": "Dogodna lokalizacja blisko centrum miasta",
+        "equipment": "Nowoczesne wyposażenie gabinetu"
+      }
     },
     "pricing": {
       "title": "<blue>Cennik</blue> świadczonych przeze mnie usług",
-      "content": "[TODO]"
+      "content": "Przejrzyste ceny za profesjonalne usługi fizjoterapeutyczne",
+      "services": {
+        "consultation": {
+          "title": "Konsultacja fizjoterapeutyczna",
+          "price": "150 zł",
+          "duration": "45 min"
+        },
+        "therapy": {
+          "title": "Terapia manualna",
+          "price": "150 zł",
+          "duration": "50 min"
+        },
+        "massage": {
+          "title": "Masaż leczniczy",
+          "price": "130 zł",
+          "duration": "30 min"
+        }
+      }
     },
     "treatmentMethods": {
       "title": "<blue>Metody leczenia</blue>, które stosuję",
-      "content": "[TODO]"
+      "content": "Wykorzystuję szereg sprawdzonych metod terapeutycznych:",
+      "methods": {
+        "manual": {
+          "title": "Terapia manualna",
+          "description": "Precyzyjna diagnostyka i leczenie dysfunkcji narządu ruchu"
+        },
+        "trigger": {
+          "title": "Terapia punktów spustowych",
+          "description": "Likwidacja bólu mięśniowo-powięziowego"
+        },
+        "kinesio": {
+          "title": "Kinesiotaping",
+          "description": "Plastrowanie dynamiczne wspomagające terapię"
+        },
+        "exercises": {
+          "title": "Ćwiczenia lecznicze",
+          "description": "Indywidualnie dobrane ćwiczenia rehabilitacyjne"
+        }
+      }
     },
     "aboutMe": {
       "title": "<blue>O mnie</blue> i moim doświadczeniu",
-      "content": "Jestem magistrem fizjoterapii z bogatym doświadczeniem i pasją do pracy z pacjentami, którą rozwijam od 2017 roku. Od 2019 roku posiadam tytuł magistra fizjoterapii, a od 2020 roku prowadzę własny gabinet, gdzie nieprzerwanie zajmuję się rehabilitacją ortopedyczną<br>i sportową.<br><br>Specjalizuję się w terapii pacjentów z różnorodnymi problemami narządu ruchu, oferując indywidualne podejście dostosowane do potrzeb każdego pacjenta. Ukończyłem liczne kursy, które podnoszą jakość mojej pracy, w tym kursy z tejpingu, metody Cyriaxa, masażu tkanek głębokich oraz technik mięśniowo-powięziowych. Dzięki temu jestem w stanie skutecznie stosować zaawansowane techniki terapeutyczne, które przynoszą realne i długotrwałe efekty.<br><br>W moim gabinecie każdy pacjent może liczyć na profesjonalne podejście oraz kompleksowe wsparcie na każdym etapie terapii. Moim celem jest maksymalne wsparcie w powrocie do pełnej sprawności oraz poprawa jakości życia moich pacjentów. <br><br><strong>Zapraszam</strong> do współpracy osoby poszukujące skutecznej i profesjonalnej fizjoterapii, która przynosi widoczne rezultaty."
+      "content": "Nasz gabinet to miejsce, gdzie pasja łączy się z profesjonalizmem. Specjalizujemy się w rehabilitacji ortopedycznej i sportowej, oferując indywidualne podejście do każdego Pacjenta.",
+      "team": {
+        "michal": {
+          "name": "Michał",
+          "role": "Fizjoterapeuta",
+          "bio": "Jestem magistrem fizjoterapii z bogatym doświadczeniem i pasją do pracy z pacjentami, którą rozwijam od 2017 roku. Od 2019 roku posiadam tytuł magistra fizjoterapii, a od 2020 roku prowadzę własny gabinet. Specjalizuję się w rehabilitacji ortopedycznej i sportowej, stosując zaawansowane techniki terapeutyczne."
+        },
+        "natalia": {
+          "name": "Natalia",
+          "role": "Fizjoterapeuta",
+          "bio": "Specjalistka fizjoterapii z pasją do pomagania pacjentom. Ukończyłam liczne kursy z zakresu terapii manualnej, masażu i rehabilitacji sportowej. Moim celem jest zapewnienie kompleksowej opieki i wsparcia na każdym etapie terapii."
+        }
+      }
     },
     "faq": {
       "title": "<blue>FAQ</blue>, czyli najczęściej zadawane pytania",
       "content": "[TODO]"
+    },
+    "services": {
+      "title": "<blue>Usługi</blue> i metody leczenia",
+      "content": "Oferujemy szeroki zakres usług fizjoterapeutycznych:",
+      "treatments": {
+        "pinoterapia": {
+          "title": "Pinoterapia",
+          "description": "Zaawansowana terapia manualna..."
+        },
+        "manual": {
+          "title": "Fizjoterapia manualna",
+          "description": "Specjalistyczne techniki terapeutyczne..."
+        }
+      },
+      "priceList": {
+        "title": "Cennik",
+        "consultation": "Konsultacja",
+        "therapy": "Terapia manualna"
+      }
+    },
+    "firstVisit": {
+      "title": "<blue>Pierwsza wizyta</blue> - informacje",
+      "content": "Przygotowanie do pierwszej wizyty:",
+      "downloadForm": "Pobierz ankietę zdrowotną",
+      "steps": {
+        "contact": {
+          "title": "Umów wizytę",
+          "content": "Skontaktuj się telefonicznie lub przez formularz online aby umówić wizytę w dogodnym terminie."
+        },
+        "questionnaire": {
+          "title": "Wypełnij ankietę",
+          "content": "Pobierz i wypełnij ankietę zdrowotną przed pierwszą wizytą. To pomoże nam lepiej przygotować się do konsultacji."
+        },
+        "documents": {
+          "title": "Przygotuj dokumenty",
+          "content": "Przygotuj dokumentację medyczną: wyniki badań, zdjęcia RTG, rezonans lub inne istotne dokumenty."
+        },
+        "preparation": {
+          "title": "Przygotuj się do wizyty",
+          "content": "Ubierz się w wygodny strój sportowy, który umożliwi swobodne wykonywanie ćwiczeń i badanie."
+        }
+      }
+    },
+    "contact": {
+      "title": "<blue>Kontakt</blue> z nami",
+      "phone": "+48 123 456 789",
+      "email": "kontakt@fizjopluskrakow.pl",
+      "address": "ul. Przykładowa 123, Kraków",
+      "labels": {
+        "phone": "Telefon",
+        "email": "Email",
+        "address": "Adres",
+        "social": "Social Media"
+      },
+      "social": {
+        "facebook": "Facebook"
+      },
+      "openingHours": {
+        "monday": {
+          "day": "Poniedziałek",
+          "hours": "8:00 - 20:00"
+        },
+        "tuesday": {
+          "day": "Wtorek",
+          "hours": "8:00 - 20:00"
+        },
+        "wednesday": {
+          "day": "Środa",
+          "hours": "8:00 - 15:00"
+        },
+        "thursday": {
+          "day": "Czwartek",
+          "hours": "8:00 - 14:00"
+        },
+        "friday": {
+          "day": "Piątek",
+          "hours": "8:00 - 14:00"
+        }
+      }
     }
   }
 }
