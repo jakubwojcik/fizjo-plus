@@ -2,11 +2,6 @@
 
 import { useTranslation } from "react-i18next";
 
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/components/ui-library/avatar";
 import { Card, CardContent } from "@/components/ui-library/card";
 
 export const AboutSection = () => {
@@ -22,15 +17,6 @@ export const AboutSection = () => {
         {team.map((memberKey) => (
           <Card key={memberKey}>
             <CardContent className="flex items-center gap-4 p-6">
-              <Avatar className="h-24 w-24">
-                <AvatarImage
-                  alt={t(`sections.aboutUs.team.${memberKey}.name`)}
-                  src={`/team/${memberKey}.jpg`}
-                />
-                <AvatarFallback>
-                  {t(`sections.aboutUs.team.${memberKey}.name`)[0]}
-                </AvatarFallback>
-              </Avatar>
               <div>
                 <h3 className="text-lg font-semibold">
                   {t(`sections.aboutUs.team.${memberKey}.name`)}
