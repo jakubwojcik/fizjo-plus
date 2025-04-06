@@ -21,8 +21,8 @@ export const ContactSection = () => {
   });
 
   const center = {
-    lat: 50.0647, // Replace with actual coordinates
-    lng: 19.945, // Replace with actual coordinates
+    lat: 50.061755137724596,
+    lng: 19.9615649,
   };
 
   useEffect(() => {

@@ -18,3 +18,10 @@ export type TimelineStep = {
   content?: string | ReactNode;
   component?: ReactNode;
 };
+
+export interface ServiceImage {
+  image: string;
+  backgroundPosition?: string;
+  objectPosition?: string;
+  objectFit?: "cover" | "contain" | "fill" | "none" | "scale-down";
+}

@@ -21,7 +21,7 @@ i18n
     debug: true, //TODO: remove later
     fallbackLng: "en",
     interpolation: {
-      escapeValue: false,
+      escapeValue: false, // This allows HTML in translations
     },
     lng: "pl", //TODO: remove later
     resources,

@@ -1,119 +1,15 @@
 {
-  "navigation": {
-    "howCanIHelp": "Jak mogę pomóc",
-    "pricing": "Cennik",
-    "bookAppointment": "Umów wizytę",
-    "treatmentMethods": "Metody leczenia",
-    "aboutMe": "O mnie",
-    "contact": "Kontakt",
-    "faq": "FAQ",
-    "services": "Usługi",
-    "firstVisit": "Pierwsza wizyta"
-  },
-  "introductionBanner": {
+  "booksy": {
     "cta": "Umów przez ",
-    "motto": "W Fizjo+ dokładnie analizuję problem każdego Pacjenta, aby stworzyć indywidualny plan terapii.<br><br>Moją misją jest nie tylko łagodzenie bólu podczas wizyty, ale przede wszystkim przywracanie pełnej sprawności i poprawa jakości życia."
+    "ctaPhone": "lub telefonicznie:",
+    "name": "Booksy"
+  },
+  "introductionPanel": {
+    "motto": "W Fizjo+ dokładnie analizujemy problem każdego Pacjenta, aby stworzyć indywidualny plan terapii.<br><br>Naszą misją jest nie tylko łagodzenie bólu podczas wizyty, ale przede wszystkim przywracanie pełnej sprawności i poprawa jakości życia."
   },
   "sections": {
-    "bookAppointment": {
-      "title": "<blue>Umów wizytę</blue>, by zadbać o swoje zdrowie",
-      "content": "Zarezerwuj wizytę w dogodnym terminie i zadbaj o swoje zdrowie.",
-      "options": {
-        "online": {
-          "title": "Online",
-          "description": "Zarezerwuj wizytę przez portal Booksy"
-        },
-        "phone": {
-          "title": "Telefonicznie",
-          "description": "Zadzwoń do nas i umów się na wizytę"
-        }
-      }
-    },
-    "howCanIHelp": {
-      "title": "<blue>Jak mogę pomóc</blue> wrócić do pełnej sprawności?",
-      "content": "Skupiam się na szybkim i skutecznym leczeniu dolegliwości, stosując sprawdzone i bezpieczne metody terapeutyczne.",
-      "services": {
-        "orthopedic": {
-          "title": "Rehabilitacja ortopedyczna",
-          "description": "Kompleksowe leczenie schorzeń układu ruchu"
-        },
-        "sports": {
-          "title": "Rehabilitacja sportowa",
-          "description": "Powrót do aktywności fizycznej po kontuzjach",
-          "image": "/services/sports.jpg"
-        },
-        "postTrauma": {
-          "title": "Rehabilitacja pourazowa",
-          "description": "Przywracanie sprawności po urazach",
-          "image": "/services/post-trauma.jpg"
-        },
-        "neurological": {
-          "title": "Rehabilitacja neurologiczna",
-          "description": "Terapia schorzeń układu nerwowego",
-          "image": "/services/neurological.jpg"
-        },
-        "geriatric": {
-          "title": "Rehabilitacja geriatryczna",
-          "description": "Poprawa sprawności osób starszych",
-          "image": "/services/geriatric.jpg"
-        },
-        "posture": {
-          "title": "Korekcja wad postawy",
-          "description": "Diagnostyka i leczenie wad postawy",
-          "image": "/services/posture.jpg"
-        }
-      },
-      "additional": {
-        "homeVisits": "Oferuję również wizyty domowe",
-        "location": "Dogodna lokalizacja blisko centrum miasta",
-        "equipment": "Nowoczesne wyposażenie gabinetu"
-      }
-    },
-    "pricing": {
-      "title": "<blue>Cennik</blue> świadczonych przeze mnie usług",
-      "content": "Przejrzyste ceny za profesjonalne usługi fizjoterapeutyczne",
-      "services": {
-        "consultation": {
-          "title": "Konsultacja fizjoterapeutyczna",
-          "price": "150 zł",
-          "duration": "45 min"
-        },
-        "therapy": {
-          "title": "Terapia manualna",
-          "price": "150 zł",
-          "duration": "50 min"
-        },
-        "massage": {
-          "title": "Masaż leczniczy",
-          "price": "130 zł",
-          "duration": "30 min"
-        }
-      }
-    },
-    "treatmentMethods": {
-      "title": "<blue>Metody leczenia</blue>, które stosuję",
-      "content": "Wykorzystuję szereg sprawdzonych metod terapeutycznych:",
-      "methods": {
-        "manual": {
-          "title": "Terapia manualna",
-          "description": "Precyzyjna diagnostyka i leczenie dysfunkcji narządu ruchu"
-        },
-        "trigger": {
-          "title": "Terapia punktów spustowych",
-          "description": "Likwidacja bólu mięśniowo-powięziowego"
-        },
-        "kinesio": {
-          "title": "Kinesiotaping",
-          "description": "Plastrowanie dynamiczne wspomagające terapię"
-        },
-        "exercises": {
-          "title": "Ćwiczenia lecznicze",
-          "description": "Indywidualnie dobrane ćwiczenia rehabilitacyjne"
-        }
-      }
-    },
-    "aboutMe": {
-      "title": "<blue>O mnie</blue> i moim doświadczeniu",
+    "aboutUs": {
+      "title": "<blue>O nas</blue> i naszym doświadczeniu",
       "content": "Nasz gabinet to miejsce, gdzie pasja łączy się z profesjonalizmem. Specjalizujemy się w rehabilitacji ortopedycznej i sportowej, oferując indywidualne podejście do każdego Pacjenta.",
       "team": {
         "michal": {
@@ -124,61 +20,73 @@
         "natalia": {
           "name": "Natalia",
           "role": "Fizjoterapeuta",
-          "bio": "Specjalistka fizjoterapii z pasją do pomagania pacjentom. Ukończyłam liczne kursy z zakresu terapii manualnej, masażu i rehabilitacji sportowej. Moim celem jest zapewnienie kompleksowej opieki i wsparcia na każdym etapie terapii."
+          "bio": "Specjalistka fizjoterapii z pasją do pomagania pacjentom. Ukończyła liczne kursy z zakresu terapii manualnej, masażu i rehabilitacji sportowej. Zajmuje się także rehabilitacją pediatryczną. Jej celem jest zapewnienie kompleksowej opieki i wsparcia na każdym etapie terapii."
         }
-      }
-    },
-    "faq": {
-      "title": "<blue>FAQ</blue>, czyli najczęściej zadawane pytania",
-      "content": "[TODO]"
-    },
-    "services": {
-      "title": "<blue>Usługi</blue> i metody leczenia",
-      "content": "Oferujemy szeroki zakres usług fizjoterapeutycznych:",
-      "treatments": {
-        "pinoterapia": {
-          "title": "Pinoterapia",
-          "description": "Zaawansowana terapia manualna..."
-        },
-        "manual": {
-          "title": "Fizjoterapia manualna",
-          "description": "Specjalistyczne techniki terapeutyczne..."
-        }
-      },
-      "priceList": {
-        "title": "Cennik",
-        "consultation": "Konsultacja",
-        "therapy": "Terapia manualna"
       }
     },
     "firstVisit": {
       "title": "<blue>Pierwsza wizyta</blue> - informacje",
-      "content": "Przygotowanie do pierwszej wizyty:",
+
       "downloadForm": "Pobierz ankietę zdrowotną",
+      "bookAppointment": "Umów wizytę przez Booksy",
       "steps": {
         "contact": {
           "title": "Umów wizytę",
-          "content": "Skontaktuj się telefonicznie lub przez formularz online aby umówić wizytę w dogodnym terminie."
+          "content": "Umów wizytę w dogodnym terminie przez portal Booksy (preferowana metoda) lub skontaktuj się telefonicznie.<br>Rezerwacja online zapewnia wygodny wybór terminu i szybkie potwierdzenie wizyty."
         },
         "questionnaire": {
           "title": "Wypełnij ankietę",
-          "content": "Pobierz i wypełnij ankietę zdrowotną przed pierwszą wizytą. To pomoże nam lepiej przygotować się do konsultacji."
+          "content": "Pobierz i wypełnij ankietę zdrowotną przed pierwszą wizytą. To pomoże nam lepiej przygotować się do konsultacji.<br><br>Wypełnienie ankiety jest opcjonalne, ale pozwala na szybszy i sprawniejszy przebieg pierwszej wizyty. Jeśli nie masz możliwości wypełnienia formularza przed wizytą, wszystkie informacje zbierzemy podczas spotkania."
         },
         "documents": {
           "title": "Przygotuj dokumenty",
-          "content": "Przygotuj dokumentację medyczną: wyniki badań, zdjęcia RTG, rezonans lub inne istotne dokumenty."
+          "content": "Przygotuj dokumentację medyczną: wyniki badań, zdjęcia RTG, rezonans lub inne istotne dokumenty, jeśli takowe posiadasz."
         },
         "preparation": {
           "title": "Przygotuj się do wizyty",
-          "content": "Ubierz się w wygodny strój sportowy, który umożliwi swobodne wykonywanie ćwiczeń i badanie."
+          "content": "Ubierz się w wygodny strój sportowy, który umożliwi swobodne wykonywanie ćwiczeń i badanie.<br>Możesz zabrać własny ręcznik – jest to mile widziane, choć nieobowiązkowe."
         }
       }
     },
+    "pricing": {
+      "title": "<blue>Cennik</blue> świadczonych przez nas usług",
+      "categories": {
+        "massage": "Masaż",
+        "other": "Inne Usługi"
+      },
+      "services": {
+        "massage": {
+          "relaxing": "Masaż Relaksacyjny",
+          "fascia": "Masaż Powięziowy",
+          "wholebody": "Masaż Całego Ciała (Plecy, Ręce, Nogi)",
+          "therapeutic": "Masaż Leczniczy",
+          "sports": "Masaż Sportowy",
+          "lymphatic": "Drenaż Limfatyczny"
+        },
+        "other": {
+          "physiotherapy": "Wizyta Fizjoterapeutyczna",
+          "kinesiotherapy": "Kinezyterapia",
+          "tmj": "Fizjoterapia szczękowo-żuchwowa",
+          "shockwave": "Fala Uderzeniowa",
+          "pediatric": "Rehabilitacja Pediatryczna"
+        }
+      },
+      "table": {
+        "service": "Usługa",
+        "duration": "Czas trwania",
+        "price": "Cena"
+      },
+      "discount": "Zaoszczędź do {{percent}}%"
+    },
+    "homeVisits": {
+      "title": "<blue>Wizyty domowe</blue> - fizjoterapia w Twoim domu",
+      "content": "Oferujemy również wizyty domowe. To idealne rozwiązanie dla osób, które z różnych powodów nie mogą dotrzeć do gabinetu. Oferujemy profesjonalną rehabilitację w komfortowych warunkach Twojego domu – zarówno w zakresie terapii neurologicznej, ortopedycznej, geriatrycznej, jak i masażu.<br><br>Dzięki indywidualnemu podejściu i nowoczesnym metodom leczenia pomagamy w powrocie do sprawności, redukcji bólu i poprawie jakości życia.<br><br>Skontaktuj się z nami, a my zadbamy o Twoje zdrowie bez konieczności wychodzenia z domu!"
+    },
     "contact": {
       "title": "<blue>Kontakt</blue> z nami",
-      "phone": "+48 123 456 789",
+      "phone": "+48 576 900 690",
       "email": "kontakt@fizjopluskrakow.pl",
-      "address": "ul. Przykładowa 123, Kraków",
+      "address": "ul. Kazimierza Kordylewskiego 11, 31-542 Kraków",
       "labels": {
         "phone": "Telefon",
         "email": "Email",
@@ -191,23 +99,73 @@
       "openingHours": {
         "monday": {
           "day": "Poniedziałek",
-          "hours": "8:00 - 20:00"
+          "hours": "7:30 - 20:30"
         },
         "tuesday": {
           "day": "Wtorek",
-          "hours": "8:00 - 20:00"
+          "hours": "7:30 - 20:30"
         },
         "wednesday": {
           "day": "Środa",
-          "hours": "8:00 - 15:00"
+          "hours": "7:30 - 20:30"
         },
         "thursday": {
           "day": "Czwartek",
-          "hours": "8:00 - 14:00"
+          "hours": "7:30 - 20:30"
         },
         "friday": {
           "day": "Piątek",
-          "hours": "8:00 - 14:00"
+          "hours": "7:30 - 20:30"
+        }
+      }
+    },
+    "services": {
+      "title": "<blue>Jak możemy pomóc</blue> wrócić do pełnej sprawności?",
+      "content": "Każdy zabieg dobieramy indywidualnie, aby zapewnić maksymalną skuteczność terapii.",
+      "treatmentMethods": {
+        "orthopedic": {
+          "title": "Rehabilitacja ortopedyczna",
+          "description": "Kluczowy element powrotu do pełnej sprawności po urazach, operacjach i schorzeniach układu ruchu. W naszym gabinecie stosujemy nowoczesne metody terapii, indywidualnie dopasowane do Twoich potrzeb. Pomagamy w rekonwalescencji po złamaniach, skręceniach, endoprotezoplastykach oraz w leczeniu bólu kręgosłupa i stawów. Dzięki profesjonalnej opiece i skutecznym technikom fizjoterapeutycznym przywracamy komfort życia i sprawność ruchową."
+        },
+        "sports": {
+          "title": "Rehabilitacja sportowa",
+          "description": "Kompleksowe wsparcie dla osób aktywnych fizycznie – zarówno zawodowych sportowców, jak i amatorów. Pomagamy w leczeniu urazów, przeciążeń i kontuzji, a także w poprawie wydolności i zapobieganiu nawrotom dolegliwości. Stosujemy nowoczesne techniki terapii, które przyspieszają regenerację i umożliwiają szybki powrót do treningów. Nasze indywidualne podejście pozwala nie tylko leczyć, ale także optymalizować ruch i poprawiać wyniki sportowe.",
+          "image": "/services/sports.jpg"
+        },
+        "postTrauma": {
+          "title": "Rehabilitacja pourazowa",
+          "description": "Proces przywracania sprawności po urazach, który obejmuje indywidualnie dobrane terapie i ćwiczenia. Pomagamy w leczeniu urazów mięśni, stawów i więzadeł, a także w rehabilitacji po operacjach ortopedycznych. Nasze podejście opiera się na nowoczesnych metodach terapeutycznych, które przyspieszają proces gojenia i poprawiają funkcjonowanie organizmu. Dzięki współpracy z pacjentem oraz zastosowaniu odpowiednich technik, pomagamy w powrocie do pełnej sprawności i aktywności życiowej.",
+          "image": "/services/post-trauma.jpg"
+        },
+        "neurological": {
+          "title": "Rehabilitacja neurologiczna",
+          "description": "Specjalistyczna terapia skierowana do osób po udarach, urazach mózgu, z chorobami neurodegeneracyjnymi i innymi schorzeniami układu nerwowego. Dzięki indywidualnie dobranym metodom pomagamy poprawić koordynację, równowagę i funkcje ruchowe, wspierając pacjentów w powrocie do samodzielności. Nasze nowoczesne podejście oparte na neuroplastyczności mózgu pozwala maksymalnie wykorzystać potencjał regeneracyjny organizmu.",
+          "image": "/services/neurological.jpg"
+        },
+        "geriatric": {
+          "title": "Rehabilitacja geriatryczna",
+          "description": "Wsparcie dla osób starszych w utrzymaniu sprawności, samodzielności i jakości życia. Pomagamy w leczeniu schorzeń związanych z wiekiem, takich jak osłabienie siły mięśniowej, problemy ze stawami, osteoporoza czy zaburzenia równowagi. Dzięki indywidualnie dobranym ćwiczeniom i terapiom poprawiamy mobilność, redukujemy ból i zapobiegamy upadkom. Naszym celem jest komfort i bezpieczeństwo pacjentów, aby mogli cieszyć się aktywnością na co dzień.",
+          "image": "/services/geriatric.jpg"
+        },
+        "posture": {
+          "title": "Korekcja wad postawy",
+          "description": "Diagnostyka i leczenie wad postawy to kluczowy element zdrowia i komfortu życia. W naszym gabinecie oferujemy kompleksową ocenę postawy ciała oraz indywidualnie dobrane terapie, które pomagają w korekcji wad postawy, takich jak skolioza, lordoza czy kifoz. Dzięki nowoczesnym metodom terapeutycznym i ćwiczeniom poprawiamy równowagę, siłę mięśniową i elastyczność, co przekłada się na lepsze samopoczucie i jakość życia.",
+          "image": "/services/posture.jpg"
+        },
+        "pediatric": {
+          "title": "Rehabilitacja pediatryczna",
+          "description": "Dedykowana dzieciom od 5. roku życia. Pomagamy w korygowaniu wad postawy, leczeniu schorzeń neurologicznych, ortopedycznych oraz wspieramy prawidłowy rozwój motoryczny. Stosujemy indywidualnie dobrane metody terapii, które łączą skuteczność z przyjaznym podejściem do najmłodszych pacjentów. Naszym celem jest poprawa sprawności ruchowej, koordynacji i komfortu życia dziecka.",
+          "image": "/services/pediatrical.jpg"
+        },
+        "massage": {
+          "title": "Masaż",
+          "description": "Doskonała forma terapii, która pomaga w redukcji napięcia mięśniowego, łagodzeniu bólu i poprawie krążenia. W naszym gabinecie oferujemy różne techniki masażu, dostosowane do indywidualnych potrzeb – od relaksacyjnego, przez leczniczy, aż po sportowy. Regularne sesje pomagają w regeneracji organizmu, redukcji stresu oraz poprawie ogólnej kondycji ciała. Zapraszamy do skorzystania z profesjonalnego masażu, który przyniesie ulgę i poprawi Twoje samopoczucie!",
+          "image": "/services/massage.jpg"
+        },
+        "physiotherapy": {
+          "title": "Fizykoterapia",
+          "description": "Fizykoterapia to skuteczna metoda wspomagania leczenia bólu, stanów zapalnych oraz regeneracji tkanek. W naszym gabinecie dysponujemy nowoczesnym sprzętem, dzięki któremu oferujemy:<br><br>Falę uderzeniową – skuteczną w terapii przewlekłego bólu mięśni i ścięgien.<br><br>Prądy lecznicze – wspomagające regenerację nerwów, zmniejszające ból i napięcie mięśniowe.<br><br>Ultradźwięki i fonoforezę – poprawiające ukrwienie i wspomagające wchłanianie leków przeciwzapalnych.<br><br>Sollux – terapię światłem przyspieszającą gojenie i zmniejszającą dolegliwości bólowe.",
+          "image": "/services/physiotherapy.jpg"
         }
       }
     }

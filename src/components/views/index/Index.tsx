@@ -1,25 +1,21 @@
+/* eslint-disable perfectionist/sort-objects */
 import { IntroductionBanner } from "@/components/layout/IntroductionBanner";
 import { Section } from "@/components/layout/Section";
 import { RichTrans } from "@/components/shared/RichTrans";
 import { AboutSection } from "@/components/views/sections/AboutSection";
 import { ContactSection } from "@/components/views/sections/ContactSection";
 import { FirstVisitSection } from "@/components/views/sections/FirstVisitSection";
+import { HomeVisitsSection } from "@/components/views/sections/HomeVisitsSection";
+import { PricingSection } from "@/components/views/sections/PricingSection";
 import { ServicesSection } from "@/components/views/sections/ServicesSection";
 
 const sections = {
-  aboutMe: {
+  aboutUs: {
     component: <AboutSection />,
-    contentKey: "sections.aboutMe.content",
+    contentKey: "sections.aboutUs.content",
     linkHash: "about-me",
-    linkKey: "navigation.aboutMe",
-    titleKey: "sections.aboutMe.title",
-  },
-  contact: {
-    component: <ContactSection />,
-    contentKey: "sections.contact.content",
-    linkHash: "contact",
-    linkKey: "navigation.contact",
-    titleKey: "sections.contact.title",
+    linkKey: "navigation.aboutUs",
+    titleKey: "sections.aboutUs.title",
   },
   firstVisit: {
     component: <FirstVisitSection />,
@@ -34,6 +30,30 @@ const sections = {
     linkHash: "services",
     linkKey: "navigation.services",
     titleKey: "sections.services.title",
+  },
+  // eslint-disable-next-line sort-keys
+  pricing: {
+    component: <PricingSection />,
+    contentKey: "sections.pricing.content",
+    linkHash: "pricing",
+    linkKey: "navigation.pricing",
+    titleKey: "sections.pricing.title",
+  },
+  // eslint-disable-next-line sort-keys
+  homeVisits: {
+    component: <HomeVisitsSection />,
+    contentKey: "sections.homeVisits.content",
+    linkHash: "home-visits",
+    linkKey: "navigation.homeVisits",
+    titleKey: "sections.homeVisits.title",
+  },
+  // eslint-disable-next-line sort-keys
+  contact: {
+    component: <ContactSection />,
+    contentKey: "sections.contact.content",
+    linkHash: "contact",
+    linkKey: "navigation.contact",
+    titleKey: "sections.contact.title",
   },
 };
 

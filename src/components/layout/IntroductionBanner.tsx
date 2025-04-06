@@ -21,10 +21,7 @@ export const IntroductionBanner = () => {
       </div>
       <div className="flex flex-col items-end justify-around py-2">
         <p className="text-right">
-          <Trans
-            components={{ break: <br /> }}
-            i18nKey="introductionBanner.motto"
-          />
+          <Trans i18nKey="introductionPanel.motto" />
         </p>
       </div>
     </div>

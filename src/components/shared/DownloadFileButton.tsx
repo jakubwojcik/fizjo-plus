@@ -13,7 +13,11 @@ export const DownloadFileButton = ({
   return (
     <Button
       asChild
-      className={cn("text-sm", "hover:bg-primary/90", "active:bg-primary/70")}
+      className={cn(
+        "text-sm",
+        "hover:bg-primary/90 hover:text-background",
+        "active:bg-primary/70",
+      )}
       variant="outline"
     >
       <a download href={href}>
