@@ -25,8 +25,10 @@ jobs:
         run: npm run lint
 
       - name: Build
-        id: build_stepnp
+        id: build_step
         run: npm run build
+        env:
+          VITE_GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
 
       - name: Upload build artifact
         if: ${{ github.ref_name == 'main' }}
