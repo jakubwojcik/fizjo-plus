@@ -1,1 +1,7 @@
 src/routeTree.gen.ts
+memory-bank/
+dist/
+.roo/
+.cursor/
+.github/
+.copilot-commit-message-instructions.md
