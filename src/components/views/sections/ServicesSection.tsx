@@ -15,16 +15,16 @@ export const ServicesSection = () => {
 
   return (
     <>
-      <p className="text-base-content/80">
-        {t("sections.services.content")}
-      </p>
+      <p className="text-base-content/80">{t("sections.services.content")}</p>
 
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((serviceKey) => (
           <Card key={serviceKey} className="overflow-hidden">
             <div className="relative h-48 w-full">
               <img
-                alt={t(`sections.services.treatmentMethods.${serviceKey}.title`)}
+                alt={t(
+                  `sections.services.treatmentMethods.${serviceKey}.title`,
+                )}
                 className="h-full w-full object-cover"
                 src={SERVICE_IMAGES[serviceKey].image}
                 style={{
