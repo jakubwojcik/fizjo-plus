@@ -6,6 +6,11 @@ import faviconInjectPlugin from "vite-plugin-favicons-inject";
 import svgrPlugin from "vite-plugin-svgr";
 
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      external: ["sharp"],
+    },
+  },
   plugins: [
     react(),
     tanstackRouterPlugin(),
