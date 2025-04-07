@@ -10,9 +10,13 @@ import { LanguageSelector } from "./LanguageSelector";
 
 interface BooksyButtonProps {
   subTitleClassNames?: string;
+  shouldShowLanguageSelector?: boolean;
 }
 
-export const BooksyButton = ({ subTitleClassNames }: BooksyButtonProps) => {
+export const BooksyButton = ({
+  shouldShowLanguageSelector,
+  subTitleClassNames,
+}: BooksyButtonProps) => {
   const { t } = useTranslation();
 
   return (
@@ -37,7 +41,7 @@ export const BooksyButton = ({ subTitleClassNames }: BooksyButtonProps) => {
             {t("sections.contact.phone")}
           </a>
         </div>
-        <LanguageSelector />
+        {shouldShowLanguageSelector && <LanguageSelector />}
       </div>
     </div>
   );

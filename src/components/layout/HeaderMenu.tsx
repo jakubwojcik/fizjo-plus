@@ -14,7 +14,7 @@ export const HeaderMenu = () => {
           <FizjoPlusLogo />
         </Link>
         <div className="flex items-center gap-2">
-          <BooksyButton />
+          <BooksyButton shouldShowLanguageSelector={true} />
         </div>
       </div>
     </div>
