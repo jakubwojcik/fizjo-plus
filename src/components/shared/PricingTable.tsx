@@ -49,38 +49,38 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
         {
           name: t("sections.pricing.services.massage.relaxing"),
           variants: [
-            { discountedPrice: 95, duration: "30min", price: 100 },
-            { discountedPrice: 133, duration: "55min", price: 140 },
+            { duration: "30min", price: 100 },
+            { duration: "55min", price: 140 },
           ],
         },
         {
           name: t("sections.pricing.services.massage.fascia"),
           variants: [
-            { discountedPrice: 95, duration: "30min", price: 100 },
-            { discountedPrice: 133, duration: "55min", price: 140 },
+            { duration: "30min", price: 100 },
+            { duration: "55min", price: 140 },
           ],
         },
         {
           name: t("sections.pricing.services.massage.wholebody"),
-          variants: [{ discountedPrice: 152, duration: "55min", price: 160 }],
+          variants: [{ duration: "55min", price: 160 }],
         },
         {
           name: t("sections.pricing.services.massage.therapeutic"),
           variants: [
-            { discountedPrice: 95, duration: "30min", price: 100 },
-            { discountedPrice: 133, duration: "55min", price: 140 },
+            { duration: "30min", price: 100 },
+            { duration: "55min", price: 140 },
           ],
         },
         {
           name: t("sections.pricing.services.massage.sports"),
           variants: [
-            { discountedPrice: 95, duration: "30min", price: 100 },
-            { discountedPrice: 133, duration: "55min", price: 140 },
+            { duration: "30min", price: 100 },
+            { duration: "55min", price: 140 },
           ],
         },
         {
           name: t("sections.pricing.services.massage.lymphatic"),
-          variants: [{ discountedPrice: 152, duration: "55min", price: 160 }],
+          variants: [{ duration: "55min", price: 160 }],
         },
       ],
     },
@@ -89,11 +89,11 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
       services: [
         {
           name: t("sections.pricing.services.other.physiotherapy"),
-          variants: [{ discountedPrice: 133, duration: "55min", price: 140 }],
+          variants: [{ duration: "55min", price: 140 }],
         },
         {
           name: t("sections.pricing.services.other.kinesiotherapy"),
-          variants: [{ discountedPrice: 133, duration: "55min", price: 140 }],
+          variants: [{ duration: "55min", price: 140 }],
         },
         {
           name: t("sections.pricing.services.other.tmj"),
@@ -101,11 +101,11 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
         },
         {
           name: t("sections.pricing.services.other.shockwave"),
-          variants: [{ discountedPrice: 85.5, duration: "20min", price: 90 }],
+          variants: [{ duration: "20min", price: 90 }],
         },
         {
           name: t("sections.pricing.services.other.pediatric"),
-          variants: [{ discountedPrice: 152, duration: "55min", price: 160 }],
+          variants: [{ duration: "55min", price: 160 }],
         },
       ],
     },
@@ -146,29 +146,9 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
                         )}
                         <TableCell>{variant.duration}</TableCell>
                         <TableCell className="text-right">
-                          {variant.discountedPrice ? (
-                            <div className="space-y-1">
-                              <div className="text-sm text-muted-foreground line-through">
-                                {priceFormat.format(variant.price)}
-                              </div>
-                              <div className="font-medium text-primary">
-                                {priceFormat.format(variant.discountedPrice)}
-                              </div>
-                              <div className="text-xs text-muted-foreground">
-                                {t("sections.pricing.discount", {
-                                  percent: Math.round(
-                                    (1 -
-                                      variant.discountedPrice / variant.price) *
-                                      100,
-                                  ),
-                                })}
-                              </div>
-                            </div>
-                          ) : (
-                            <div className="font-medium">
-                              {priceFormat.format(variant.price)}
-                            </div>
-                          )}
+                          <div className="font-medium">
+                            {priceFormat.format(variant.price)}
+                          </div>
                         </TableCell>
                       </TableRow>
                     ))}
