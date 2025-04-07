@@ -16,7 +16,7 @@ export const BooksyButton = ({ subTitleClassNames }: BooksyButtonProps) => {
   return (
     <div
       className={cn(
-        "flex flex-col items-end gap-4 lg:flex-row lg:items-center",
+        "flex flex-col items-end gap-4 sm:flex-row sm:items-center",
       )}
     >
       <a href={FIZJO_PLUS_BOOKSY_URL} rel="noopener noreferrer" target="_blank">
@@ -29,7 +29,6 @@ export const BooksyButton = ({ subTitleClassNames }: BooksyButtonProps) => {
       <div
         className={cn("flex items-center gap-2 text-white", subTitleClassNames)}
       >
-        <span className="text-sm">{t("booksy.ctaPhone")}</span>
         <Phone className="inline-block h-4 w-4" />
         <a className="text-sm" href={`tel:${t("sections.contact.phone")}`}>
           {t("sections.contact.phone")}

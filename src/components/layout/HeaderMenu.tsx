@@ -9,7 +9,7 @@ export const HeaderMenu = () => {
 
   return (
     <div className="bg-foreground fixed w-full z-10 py-2">
-      <div className="max-w-screen-lg mx-auto flex justify-between items-center px-4 lg:px-3 py-3 gap-2">
+      <div className="max-w-screen-lg mx-auto flex justify-between items-center px-4 lg:px-3 py-3 gap-4">
         <Link className="h-10 max-w-30" to="/">
           <FizjoPlusLogo />
         </Link>
