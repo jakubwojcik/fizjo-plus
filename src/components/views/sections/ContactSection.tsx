@@ -2,7 +2,8 @@ import { GoogleMap, MarkerF, useLoadScript } from "@react-google-maps/api";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import fizjoPlusLogo from "@/assets/logos/fizjoplus_light_h.svg";
+import FacebookIcon from "@/assets/icons/facebook.svg?react";
+import fizjoPlusLogo from "@/assets/logos/fizjoplus_old.svg";
 import { Card, CardContent } from "@/components/ui-library/card";
 import {
   Table,
@@ -16,28 +17,18 @@ export const ContactSection = () => {
   const cardRef = useRef<HTMLDivElement>(null);
   const [rotation, setRotation] = useState({ x: 0, y: 0 });
 
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY ?? "",
-  });
-
-  const center = {
-    lat: 50.061755137724596,
-    lng: 19.9615649,
-  };
-
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
       if (!cardRef.current) return;
 
-      const rect = cardRef.current.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
+      const card = cardRef.current;
+      const rect = card.getBoundingClientRect();
 
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
+      const centerX = rect.left + rect.width / 2;
+      const centerY = rect.top + rect.height / 2;
 
-      const rotateX = (y - centerY) / 20;
-      const rotateY = (centerX - x) / 20;
+      const rotateY = ((e.clientX - centerX) / (rect.width / 2)) * 5;
+      const rotateX = -((e.clientY - centerY) / (rect.height / 2)) * 5;
 
       setRotation({ x: rotateX, y: rotateY });
     };
@@ -60,6 +51,14 @@ export const ContactSection = () => {
     };
   }, []);
 
+  const { isLoaded } = useLoadScript({
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY ?? "",
+  });
+
+  const center = {
+    lat: 50.061755137724596,
+    lng: 19.9615649,
+  };
   const hours = [
     {
       day: t("sections.contact.openingHours.monday.day"),
@@ -91,6 +90,7 @@ export const ContactSection = () => {
         style={{
           transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
           transformStyle: "preserve-3d",
+          transition: "transform 0.1s ease-out",
         }}
       >
         <div className="absolute -right-16 -top-16 h-32 w-32 rounded-full bg-primary/10" />
@@ -138,11 +138,12 @@ export const ContactSection = () => {
               {t("sections.contact.labels.social")}
             </span>
             <a
-              className="transition-colors hover:text-primary"
+              className="flex gap-2 w-fit rounded-lg bg-[#1877F2] px-4 py-2 text-sm font-medium text-white transition-all hover:bg-[#0c5cdb] hover:text-white"
               href="https://facebook.com/fizjopluskrakow"
               rel="noopener noreferrer"
               target="_blank"
             >
+              <FacebookIcon className="h-5 w-5 invert" />
               {t("sections.contact.social.facebook")}
             </a>
           </div>
@@ -151,7 +152,7 @@ export const ContactSection = () => {
         <div className="absolute bottom-4 right-4 opacity-10">
           <img
             alt="FizjoPlus"
-            className="h-auto w-[100px]"
+            className="h-auto w-[100px] invert"
             src={fizjoPlusLogo}
           />
         </div>
@@ -159,6 +160,9 @@ export const ContactSection = () => {
 
       <Card>
         <CardContent className="p-6">
+          <span className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+            {t("sections.contact.labels.hours")}
+          </span>
           <Table>
             <TableBody>
               {hours.map((row) => (

@@ -90,7 +90,8 @@
         "phone": "Telefon",
         "email": "Email",
         "address": "Adres",
-        "social": "Social Media"
+        "social": "Social Media",
+        "hours": "Godziny świadczenia usług"
       },
       "social": {
         "facebook": "Facebook"
