@@ -11,7 +11,7 @@ export const View = ({ children }: ViewProps) => {
   return (
     <>
       <HeaderMenu />
-      <ScrollArea className="pt-20">
+      <ScrollArea className="pt-32 lg:pt-20">
         <div className="px-3 mx-auto max-w-screen-lg">{children}</div>
       </ScrollArea>
     </>

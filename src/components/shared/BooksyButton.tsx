@@ -7,18 +7,18 @@ import { FIZJO_PLUS_BOOKSY_URL } from "@/constants";
 import { cn } from "@/lib/utils";
 
 interface BooksyButtonProps {
-  containerClassNames?: string;
   subTitleClassNames?: string;
 }
 
-export const BooksyButton = ({
-  containerClassNames,
-  subTitleClassNames,
-}: BooksyButtonProps) => {
+export const BooksyButton = ({ subTitleClassNames }: BooksyButtonProps) => {
   const { t } = useTranslation();
 
   return (
-    <div className={cn("flex gap-4 items-center", containerClassNames)}>
+    <div
+      className={cn(
+        "flex flex-col items-end gap-4 lg:flex-row lg:items-center",
+      )}
+    >
       <a href={FIZJO_PLUS_BOOKSY_URL} rel="noopener noreferrer" target="_blank">
         <Button className="hover:shadow-aura-booksy bg-booksy hover:bg-booksy-hover transition-shadow duration-[100] ease-in-out font-bold px-4 md:px-8">
           <div>{t("booksy.cta")}</div>
