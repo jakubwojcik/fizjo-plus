@@ -1,4 +1,3 @@
-import { GoogleMap, MarkerF, useLoadScript } from "@react-google-maps/api";
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -51,14 +50,6 @@ export const ContactSection = () => {
     };
   }, []);
 
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY ?? "",
-  });
-
-  const center = {
-    lat: 50.061755137724596,
-    lng: 19.9615649,
-  };
   const hours = [
     {
       day: t("sections.contact.openingHours.monday.day"),
@@ -81,6 +72,11 @@ export const ContactSection = () => {
       hours: t("sections.contact.openingHours.friday.hours"),
     },
   ];
+
+  // const center = {
+  //   lat: 50.061755137724596,
+  //   lng: 19.9615649,
+  // };
 
   return (
     <div className="grid gap-8 md:grid-cols-2">
@@ -126,7 +122,7 @@ export const ContactSection = () => {
             </span>
             <a
               className="transition-colors hover:text-primary"
-              href="https://goo.gl/maps/xxx"
+              href="https://maps.app.goo.gl/WDKGW26n5SmrGy289"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -139,7 +135,7 @@ export const ContactSection = () => {
             </span>
             <a
               className="flex gap-2 w-fit rounded-lg bg-[#1877F2] px-4 py-2 text-sm font-medium text-white transition-all hover:bg-[#0c5cdb] hover:text-white"
-              href="https://facebook.com/fizjopluskrakow"
+              href="https://facebook.com/PlusFizjo"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -176,35 +172,37 @@ export const ContactSection = () => {
         </CardContent>
       </Card>
 
-      <div className="md:col-span-2 h-[400px] overflow-hidden rounded-lg border">
-        {!isLoaded ? (
-          <div className="w-full h-full bg-muted animate-pulse" />
-        ) : (
-          <GoogleMap
-            center={center}
-            mapContainerClassName="w-full h-full"
-            options={{
-              disableDefaultUI: true,
-              styles: [
-                {
-                  elementType: "labels.text.fill",
-                  featureType: "all",
-                  stylers: [{ color: "#6b7280" }],
-                },
-                {
-                  elementType: "geometry.fill",
-                  featureType: "water",
-                  stylers: [{ color: "#dbeafe" }],
-                },
-              ],
-              zoomControl: true,
-            }}
-            zoom={15}
+      {/* <div className="md:col-span-2 h-[400px] overflow-hidden rounded-lg border">
+        <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY ?? ""}>
+          <Map
+            defaultCenter={center}
+            defaultZoom={15}
+            disableDefaultUI={true}
+            fullscreenControl={false}
+            gestureHandling="greedy"
+            mapId="fizjoplus-contact-map"
+            mapTypeControl={false}
+            mapTypeId="roadmap"
+            streetViewControl={false}
+            style={{ height: "100%", width: "100%" }}
+            styles={[
+              {
+                elementType: "labels.text.fill",
+                featureType: "all",
+                stylers: [{ color: "#6b7280" }],
+              },
+              {
+                elementType: "geometry.fill",
+                featureType: "water",
+                stylers: [{ color: "#dbeafe" }],
+              },
+            ]}
+            zoomControl={true}
           >
-            <MarkerF position={center} />
-          </GoogleMap>
-        )}
-      </div>
+            <Marker position={center} />
+          </Map>
+        </APIProvider>
+      </div> */}
     </div>
   );
 };

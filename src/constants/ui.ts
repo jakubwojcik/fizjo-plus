@@ -1,3 +1,4 @@
+import geriatricImg from "@/assets/images/services/geriatric.jpg";
 import massageImg from "@/assets/images/services/massage.jpg";
 import neurologicalImg from "@/assets/images/services/neurological.jpg";
 import orthopedicImg from "@/assets/images/services/orthopedic.jpg";
@@ -24,7 +25,7 @@ export const services = [
 
 export const SERVICE_IMAGES: Record<(typeof services)[number], ServiceImage> = {
   geriatric: {
-    image: physiotherapyImg,
+    image: geriatricImg,
     objectPosition: "center",
   },
   massage: {
@@ -49,7 +50,7 @@ export const SERVICE_IMAGES: Record<(typeof services)[number], ServiceImage> = {
   },
   postTrauma: {
     image: postTraumaImg,
-    objectPosition: "center 55%",
+    objectPosition: "center 30%",
   },
   posture: {
     image: postureImg,
