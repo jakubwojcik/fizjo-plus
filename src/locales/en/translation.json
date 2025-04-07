@@ -1,1 +1,172 @@
-{}
+{
+  "booksy": {
+    "cta": "Book through ",
+    "name": "Booksy"
+  },
+  "introductionPanel": {
+    "motto": "At Fizjo+, we thoroughly analyze each Patient's problem to create an individualized therapy plan.<br><br>Our mission is not only to relieve pain during the visit but, above all, to restore full functionality and improve quality of life."
+  },
+  "sections": {
+    "aboutUs": {
+      "title": "<blue>About us</blue> and our experience",
+      "content": "Our clinic is a place where passion meets professionalism. We specialize in orthopedic and sports rehabilitation, offering an individual approach to each Patient.",
+      "team": {
+        "michal": {
+          "name": "Michał",
+          "role": "Physiotherapist",
+          "bio": "I am a master of physiotherapy with extensive experience and a passion for working with patients, which I have been developing since 2017. Since 2019, I have held a master's degree in physiotherapy, and since 2020 I have been running my own clinic. I specialize in orthopedic and sports rehabilitation, applying advanced therapeutic techniques."
+        },
+        "natalia": {
+          "name": "Natalia",
+          "role": "Physiotherapist",
+          "bio": "A physiotherapy specialist with a passion for helping patients. She has completed numerous courses in manual therapy, massage, and sports rehabilitation. She also specializes in pediatric rehabilitation. Her goal is to provide comprehensive care and support at every stage of therapy."
+        }
+      }
+    },
+    "firstVisit": {
+      "title": "<blue>First visit</blue> - information",
+      "downloadForm": "Download health questionnaire",
+      "bookAppointment": "Book an appointment through Booksy",
+      "steps": {
+        "contact": {
+          "title": "Book an appointment",
+          "content": "Book an appointment at a convenient time through the Booksy portal (preferred method) or contact us by phone.<br>Online reservation provides a convenient way to choose a date and receive quick confirmation of your visit."
+        },
+        "questionnaire": {
+          "title": "Fill out the questionnaire",
+          "content": "Download and complete the health questionnaire before your first visit. This will help us better prepare for the consultation.<br><br>Filling out the questionnaire is optional, but it allows for a faster and more efficient first visit. If you cannot complete the form before your visit, we will collect all information during the meeting."
+        },
+        "documents": {
+          "title": "Prepare documents",
+          "content": "Prepare medical documentation: test results, X-rays, MRI scans, or other relevant documents if you have them."
+        },
+        "preparation": {
+          "title": "Prepare for the visit",
+          "content": "Wear comfortable sportswear that allows for free movement during exercises and examination.<br>You may bring your own towel – this is welcome, although not mandatory."
+        }
+      }
+    },
+    "pricing": {
+      "title": "<blue>Pricing</blue> of our services",
+      "categories": {
+        "massage": "Massage",
+        "other": "Other Services"
+      },
+      "services": {
+        "massage": {
+          "relaxing": "Relaxation Massage",
+          "fascia": "Fascia Massage",
+          "wholebody": "Full Body Massage (Back, Arms, Legs)",
+          "therapeutic": "Therapeutic Massage",
+          "sports": "Sports Massage",
+          "lymphatic": "Lymphatic Drainage"
+        },
+        "other": {
+          "physiotherapy": "Physiotherapy Visit",
+          "kinesiotherapy": "Kinesiotherapy",
+          "tmj": "Temporomandibular joint physiotherapy",
+          "shockwave": "Shockwave Therapy",
+          "pediatric": "Pediatric Rehabilitation"
+        }
+      },
+      "table": {
+        "service": "Service",
+        "duration": "Duration",
+        "price": "Price"
+      },
+      "discount": "Save up to {{percent}}%"
+    },
+    "homeVisits": {
+      "title": "<blue>Home visits</blue> - physiotherapy in your home",
+      "content": "We also offer home visits. This is an ideal solution for people who, for various reasons, cannot come to the clinic. We provide professional rehabilitation in the comfort of your home – in the areas of neurological, orthopedic, geriatric therapy, as well as massage.<br><br>Thanks to our individual approach and modern treatment methods, we help restore functionality, reduce pain, and improve quality of life.<br><br>Contact us, and we will take care of your health without you having to leave your home!"
+    },
+    "contact": {
+      "title": "<blue>Contact</blue> us",
+      "phone": "+48 576 900 690",
+      "email": "kontakt@fizjopluskrakow.pl",
+      "address": "ul. Kazimierza Kordylewskiego 11, 31-542 Kraków",
+      "labels": {
+        "phone": "Phone",
+        "email": "Email",
+        "address": "Address",
+        "social": "Social Media",
+        "hours": "Service hours"
+      },
+      "social": {
+        "facebook": "Facebook"
+      },
+      "openingHours": {
+        "monday": {
+          "day": "Monday",
+          "hours": "7:30 - 20:30"
+        },
+        "tuesday": {
+          "day": "Tuesday",
+          "hours": "7:30 - 20:30"
+        },
+        "wednesday": {
+          "day": "Wednesday",
+          "hours": "7:30 - 20:30"
+        },
+        "thursday": {
+          "day": "Thursday",
+          "hours": "7:30 - 20:30"
+        },
+        "friday": {
+          "day": "Friday",
+          "hours": "7:30 - 20:30"
+        }
+      }
+    },
+    "services": {
+      "title": "<blue>How can we help</blue> you return to full fitness?",
+      "content": "We customize each treatment individually to ensure maximum effectiveness of therapy.",
+      "treatmentMethods": {
+        "orthopedic": {
+          "title": "Orthopedic rehabilitation",
+          "description": "A key element in returning to full fitness after injuries, surgeries, and musculoskeletal disorders. In our clinic, we use modern therapy methods, individually tailored to your needs. We help in recovery after fractures, sprains, joint replacements, and in treating back and joint pain. Through professional care and effective physiotherapeutic techniques, we restore comfort and mobility."
+        },
+        "sports": {
+          "title": "Sports rehabilitation",
+          "description": "Comprehensive support for physically active people – both professional athletes and amateurs. We help in treating injuries, overloads, and strains, as well as improving performance and preventing recurrence of ailments. We apply modern therapy techniques that accelerate regeneration and enable a quick return to training. Our individual approach allows not only to heal but also to optimize movement and improve athletic performance.",
+          "image": "/services/sports.jpg"
+        },
+        "postTrauma": {
+          "title": "Post-trauma rehabilitation",
+          "description": "A process of restoring functionality after injuries, which includes individually selected therapies and exercises. We help in treating muscle, joint, and ligament injuries, as well as in rehabilitation after orthopedic surgeries. Our approach is based on modern therapeutic methods that accelerate the healing process and improve the functioning of the body. Through cooperation with the patient and the application of appropriate techniques, we help in returning to full fitness and life activity.",
+          "image": "/services/post-trauma.jpg"
+        },
+        "neurological": {
+          "title": "Neurological rehabilitation",
+          "description": "Specialized therapy directed at people after strokes, brain injuries, with neurodegenerative diseases and other nervous system disorders. Through individually selected methods, we help improve coordination, balance, and motor functions, supporting patients in returning to independence. Our modern approach based on brain neuroplasticity allows us to maximize the regenerative potential of the body.",
+          "image": "/services/neurological.jpg"
+        },
+        "geriatric": {
+          "title": "Geriatric rehabilitation",
+          "description": "Support for elderly people in maintaining fitness, independence, and quality of life. We help in treating age-related conditions such as muscle weakness, joint problems, osteoporosis, or balance disorders. Through individually selected exercises and therapies, we improve mobility, reduce pain, and prevent falls. Our goal is the comfort and safety of patients so they can enjoy daily activity.",
+          "image": "/services/geriatric.jpg"
+        },
+        "posture": {
+          "title": "Posture correction",
+          "description": "Diagnosis and treatment of posture defects is a key element of health and life comfort. In our clinic, we offer a comprehensive assessment of body posture and individually selected therapies that help in correcting posture defects such as scoliosis, lordosis, or kyphosis. Through modern therapeutic methods and exercises, we improve balance, muscle strength, and flexibility, which translates into better well-being and quality of life.",
+          "image": "/services/posture.jpg"
+        },
+        "pediatric": {
+          "title": "Pediatric rehabilitation",
+          "description": "Dedicated to children from 5 years of age. We help in correcting posture defects, treating neurological and orthopedic disorders, and support proper motor development. We apply individually selected therapy methods that combine effectiveness with a friendly approach to the youngest patients. Our goal is to improve motor skills, coordination, and the child's comfort of life.",
+          "image": "/services/pediatrical.jpg"
+        },
+        "massage": {
+          "title": "Massage",
+          "description": "An excellent form of therapy that helps in reducing muscle tension, alleviating pain, and improving circulation. In our clinic, we offer various massage techniques, adapted to individual needs – from relaxation, through therapeutic, to sports massage. Regular sessions help in body regeneration, stress reduction, and improvement of overall body condition. We invite you to take advantage of a professional massage that will bring relief and improve your well-being!",
+          "image": "/services/massage.jpg"
+        },
+        "physiotherapy": {
+          "title": "Physical therapy",
+          "description": "Physical therapy is an effective method of supporting the treatment of pain, inflammation, and tissue regeneration. In our clinic, we have modern equipment, thanks to which we offer:<br><br>Shockwave therapy – effective in treating chronic muscle and tendon pain.<br><br>Therapeutic currents – supporting nerve regeneration, reducing pain and muscle tension.<br><br>Ultrasound and phonophoresis – improving blood circulation and supporting the absorption of anti-inflammatory drugs.<br><br>Sollux – light therapy accelerating healing and reducing pain.",
+          "image": "/services/physiotherapy.jpg"
+        }
+      }
+    }
+  }
+}
