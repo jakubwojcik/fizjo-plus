@@ -8,9 +8,11 @@ type ViewProps = {
 
 export const View = ({ children }: ViewProps) => {
   return (
-    <>
+    <div className="flex flex-col h-full">
       <HeaderMenu />
-      <div className="px-3 mx-auto max-w-screen-lg">{children}</div>
-    </>
+      <div className="mt-[132px] sm:mt-[80px] overflow-y-auto">
+        <div className="flex-grow px-3 mx-auto max-w-screen-lg">{children}</div>
+      </div>
+    </div>
   );
 };

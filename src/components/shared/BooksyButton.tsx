@@ -6,6 +6,8 @@ import { Button } from "@/components/ui-library/button";
 import { FIZJO_PLUS_BOOKSY_URL } from "@/constants";
 import { cn } from "@/lib/utils";
 
+import { LanguageSelector } from "./LanguageSelector";
+
 interface BooksyButtonProps {
   subTitleClassNames?: string;
 }
@@ -29,10 +31,13 @@ export const BooksyButton = ({ subTitleClassNames }: BooksyButtonProps) => {
       <div
         className={cn("flex items-center gap-2 text-white", subTitleClassNames)}
       >
-        <Phone className="inline-block h-4 w-4" />
-        <a className="text-sm" href={`tel:${t("sections.contact.phone")}`}>
-          {t("sections.contact.phone")}
-        </a>
+        <div className="flex items-center gap-2">
+          <Phone className="inline-block h-4 w-4" />
+          <a className="text-sm" href={`tel:${t("sections.contact.phone")}`}>
+            {t("sections.contact.phone")}
+          </a>
+        </div>
+        <LanguageSelector />
       </div>
     </div>
   );

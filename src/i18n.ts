@@ -18,12 +18,10 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    debug: true, //TODO: remove later
     fallbackLng: "en",
     interpolation: {
       escapeValue: false, // This allows HTML in translations
     },
-    lng: "pl", //TODO: remove later
     resources,
   });
 

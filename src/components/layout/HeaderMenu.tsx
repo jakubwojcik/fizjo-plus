@@ -13,7 +13,9 @@ export const HeaderMenu = () => {
         <Link className="h-10 max-w-30" to="/">
           <FizjoPlusLogo />
         </Link>
-        <BooksyButton />
+        <div className="flex items-center gap-2">
+          <BooksyButton />
+        </div>
       </div>
     </div>
   );
