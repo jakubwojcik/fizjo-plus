@@ -72,6 +72,6 @@
 
   body {
     @apply bg-background text-foreground;
-    @apply min-w-[320px]
+    @apply min-w-[320px];
   }
 }
