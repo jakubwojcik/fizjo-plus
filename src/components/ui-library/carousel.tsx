@@ -1,7 +1,7 @@
 "use client";
 
 import useEmblaCarousel, {
-    type UseEmblaCarouselType,
+  type UseEmblaCarouselType,
 } from "embla-carousel-react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import * as React from "react";
@@ -254,9 +254,10 @@ const CarouselNext = React.forwardRef<
 CarouselNext.displayName = "CarouselNext";
 
 export {
-    Carousel, CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious, type CarouselApi
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+  type CarouselApi,
 };
-  
