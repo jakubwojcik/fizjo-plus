@@ -168,5 +168,8 @@
         }
       }
     }
+  },
+  "footer": {
+    "copyright": "All rights reserved."
   }
 }

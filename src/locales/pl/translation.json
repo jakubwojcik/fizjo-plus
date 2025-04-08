@@ -169,5 +169,8 @@
         }
       }
     }
+  },
+  "footer": {
+    "copyright": "Wszelkie prawa zastrzeżone."
   }
 }
