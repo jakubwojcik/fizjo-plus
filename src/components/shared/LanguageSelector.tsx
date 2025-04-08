@@ -25,7 +25,7 @@ export const LanguageSelector = () => {
   const currentLangAbbr = currentLanguage.split("-")[0].toUpperCase();
 
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
         <Button
           className="px-2 text-primary-foreground"
