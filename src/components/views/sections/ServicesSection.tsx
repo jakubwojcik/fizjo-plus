@@ -17,7 +17,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui-library/carousel";
-import { SERVICE_IMAGES, services } from "@/constants/ui";
+import { serviceImages, services } from "@/constants/ui";
 
 export const ServicesSection = () => {
   const { t } = useTranslation();
@@ -52,11 +52,10 @@ export const ServicesSection = () => {
                       `sections.services.treatmentMethods.${serviceKey}.title`,
                     )}
                     className="h-full w-full object-cover"
-                    src={SERVICE_IMAGES[serviceKey].image}
+                    src={serviceImages[serviceKey].image}
                     style={{
-                      objectFit:
-                        SERVICE_IMAGES[serviceKey].objectFit || "cover",
-                      objectPosition: SERVICE_IMAGES[serviceKey].objectPosition,
+                      objectFit: serviceImages[serviceKey].objectFit || "cover",
+                      objectPosition: serviceImages[serviceKey].objectPosition,
                     }}
                   />
                 </div>

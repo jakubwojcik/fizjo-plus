@@ -23,7 +23,7 @@ export const services = [
   "physiotherapy",
 ] as const;
 
-export const SERVICE_IMAGES: Record<(typeof services)[number], ServiceImage> = {
+export const serviceImages: Record<(typeof services)[number], ServiceImage> = {
   geriatric: {
     image: geriatricImg,
     objectPosition: "center",
