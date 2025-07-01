@@ -49,32 +49,49 @@
     "pricing": {
       "title": "<blue>Pricing</blue> of our services",
       "categories": {
+        "therapy": "Manual Therapy",
         "massage": "Massage",
-        "other": "Other Services"
+        "shockwave": "Shockwave Therapy",
+        "physiotherapy": "Physiotherapy"
       },
       "services": {
+        "therapy": {
+          "manual": "Manual Therapy/Physiotherapy Visit",
+          "kinesiotherapy": "Kinesiotherapy",
+          "personal_training": "Personal Training",
+          "corrective_gymnastics": "Corrective Gymnastics",
+          "kinesiotaping": "Kinesiotaping",
+          "diagnostic_visit": "Diagnostic Visit",
+          "home_visit": "Home Visit (priced individually)"
+        },
         "massage": {
-          "relaxing": "Relaxation Massage",
-          "fascia": "Fascia Massage",
-          "wholebody": "Full Body Massage (Back, Arms, Legs)",
-          "therapeutic": "Therapeutic Massage",
-          "sports": "Sports Massage",
+          "general": "Massage",
+          "cupping": "Cupping Massage",
           "lymphatic": "Lymphatic Drainage"
         },
-        "other": {
-          "physiotherapy": "Physiotherapy Visit",
-          "kinesiotherapy": "Kinesiotherapy",
-          "tmj": "Temporomandibular joint physiotherapy",
-          "shockwave": "Shockwave Therapy",
-          "pediatric": "Pediatric Rehabilitation"
+        "shockwave": {
+          "single_area": "Shockwave Therapy (one area)",
+          "double_area": "Shockwave Therapy (two areas per visit)",
+          "combo_manual": "Manual therapy + shockwave"
+        },
+        "physiotherapy": {
+          "ultrasound": "Ultrasound/Phonophoresis (1 treatment)",
+          "sollux": "Sollux (1 treatment)",
+          "electrotherapy": "TENS, Diadynamic, Kotz, Interferential, Trabert currents, Ionophoresis, Galvanization (1 treatment)",
+          "package_30": "Package 10×3 physiotherapy treatments*"
         }
       },
       "table": {
         "service": "Service",
         "duration": "Duration",
-        "price": "Price"
+        "price": "Price",
+        "sessions": "Sessions",
+        "duration_sessions": "Duration/Sessions"
       },
-      "discount": "Save up to {{percent}}%"
+      "discount": "Save up to {{percent}}%",
+      "notes": {
+        "package_validity": "*For prepayment\nPackage valid for 3 months from purchase date"
+      }
     },
     "homeVisits": {
       "title": "<blue>Home visits</blue> - physiotherapy in your home",
@@ -83,7 +100,7 @@
     "contact": {
       "title": "<blue>Contact</blue> us",
       "phone": "+48 576 900 690",
-      "email": "kontakt@fizjopluskrakow.pl",
+      "email": "fizjoplus.michalcwik@gmail.com ",
       "address": "ul. Kazimierza Kordylewskiego 11, 31-542 Kraków",
       "labels": {
         "phone": "Phone",
