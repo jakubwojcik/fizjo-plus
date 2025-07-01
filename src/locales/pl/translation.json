@@ -25,7 +25,6 @@
     },
     "firstVisit": {
       "title": "<blue>Pierwsza wizyta</blue> - informacje",
-
       "downloadForm": "Pobierz ankietę zdrowotną",
       "bookAppointment": "Umów wizytę przez Booksy",
       "steps": {
@@ -50,32 +49,49 @@
     "pricing": {
       "title": "<blue>Cennik</blue> świadczonych przez nas usług",
       "categories": {
+        "therapy": "Terapia Manualna",
         "massage": "Masaż",
-        "other": "Inne Usługi"
+        "shockwave": "Fala Uderzeniowa",
+        "physiotherapy": "Fizykoterapia"
       },
       "services": {
-        "massage": {
-          "relaxing": "Masaż Relaksacyjny",
-          "fascia": "Masaż Powięziowy",
-          "wholebody": "Masaż Całego Ciała (Plecy, Ręce, Nogi)",
-          "therapeutic": "Masaż Leczniczy",
-          "sports": "Masaż Sportowy",
-          "lymphatic": "Drenaż Limfatyczny"
-        },
-        "other": {
-          "physiotherapy": "Wizyta Fizjoterapeutyczna",
+        "therapy": {
+          "manual": "Terapia manualna/Wizyta fizjoterapeutyczna",
           "kinesiotherapy": "Kinezyterapia",
-          "tmj": "Fizjoterapia szczękowo-żuchwowa",
-          "shockwave": "Fala Uderzeniowa",
-          "pediatric": "Rehabilitacja Pediatryczna"
+          "personal_training": "Trening personalny",
+          "corrective_gymnastics": "Gimnastyka korekcyjna",
+          "kinesiotaping": "Kinesjotaping",
+          "diagnostic_visit": "Wizyta diagnostyczna",
+          "home_visit": "Wizyta domowa (cena ustalana indywidualnie)"
+        },
+        "massage": {
+          "general": "Masaż",
+          "cupping": "Masaż bańką chińską",
+          "lymphatic": "Drenaż limfatyczny"
+        },
+        "shockwave": {
+          "single_area": "Fala uderzeniowa (jedna okolica)",
+          "double_area": "Fala uderzeniowa (dwie okolice na jednej wizycie)",
+          "combo_manual": "Terapia manualna + fala uderzeniowa"
+        },
+        "physiotherapy": {
+          "ultrasound": "Ultradźwięki/Fonoforeza (1 zabieg)",
+          "sollux": "Sollux (1 zabieg)",
+          "electrotherapy": "TENS, Diadynamik, Prądy Kotza, Prądy Interferencyjne, Prądy Traberta, Jonoforeza, Galwanizacja (1 zabieg)",
+          "package_30": "Pakiet 10×3 zabiegi fizykoterapii*"
         }
       },
       "table": {
         "service": "Usługa",
         "duration": "Czas trwania",
-        "price": "Cena"
+        "price": "Cena",
+        "sessions": "Ilość zabiegów",
+        "duration_sessions": "Czas trwania/Ilość zabiegów"
       },
-      "discount": "Zaoszczędź do {{percent}}%"
+      "discount": "Zaoszczędź do {{percent}}%",
+      "notes": {
+        "package_validity": "*Przy płatności z góry\nPakiet ważny 3 miesiące od daty zakupu"
+      }
     },
     "homeVisits": {
       "title": "<blue>Wizyty domowe</blue> - fizjoterapia w Twoim domu",
@@ -84,7 +100,7 @@
     "contact": {
       "title": "<blue>Kontakt</blue> z nami",
       "phone": "+48 576 900 690",
-      "email": "kontakt@fizjopluskrakow.pl",
+      "email": "fizjoplus.michalcwik@gmail.com ",
       "address": "ul. Kazimierza Kordylewskiego 11, 31-542 Kraków",
       "labels": {
         "phone": "Telefon",
