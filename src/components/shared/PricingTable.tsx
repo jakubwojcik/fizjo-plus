@@ -50,23 +50,23 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
           name: t("sections.pricing.services.therapy.manual"),
           variants: [
             { duration: "30min", price: 100 },
-            { duration: "50-55min", price: 150 },
+            { duration: "50-55min", price: 160 },
           ],
         },
         {
           name: t("sections.pricing.services.therapy.kinesiotherapy"),
           variants: [
             { duration: "30min", price: 100 },
-            { duration: "50-55min", price: 150 },
+            { duration: "50-55min", price: 160 },
           ],
         },
         {
           name: t("sections.pricing.services.therapy.personal_training"),
-          variants: [{ duration: "60min", price: 150 }],
+          variants: [{ duration: "60min", price: 160 }],
         },
         {
           name: t("sections.pricing.services.therapy.corrective_gymnastics"),
-          variants: [{ duration: "45min", price: 150 }],
+          variants: [{ duration: "45min", price: 180 }],
         },
         {
           name: t("sections.pricing.services.therapy.kinesiotaping"),
@@ -74,7 +74,7 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
         },
         {
           name: t("sections.pricing.services.therapy.diagnostic_visit"),
-          variants: [{ duration: "30min", price: 150 }],
+          variants: [{ duration: "30min", price: 160 }],
         },
         {
           name: t("sections.pricing.services.therapy.home_visit"),
@@ -89,21 +89,21 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
           name: t("sections.pricing.services.massage.general"),
           variants: [
             { duration: "30min", price: 100 },
-            { duration: "50-55min", price: 150 },
+            { duration: "50-55min", price: 160 },
           ],
         },
         {
           name: t("sections.pricing.services.massage.cupping"),
           variants: [
             { duration: "30min", price: 100 },
-            { duration: "50-55min", price: 150 },
+            { duration: "50-55min", price: 160 },
           ],
         },
         {
           name: t("sections.pricing.services.massage.lymphatic"),
           variants: [
             { duration: "30min", price: 100 },
-            { duration: "50-55min", price: 150 },
+            { duration: "50-55min", price: 170 },
           ],
         },
       ],
@@ -117,11 +117,11 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
         },
         {
           name: t("sections.pricing.services.shockwave.double_area"),
-          variants: [{ duration: "2x", price: 160 }],
+          variants: [{ duration: "2x", price: 180 }],
         },
         {
           name: t("sections.pricing.services.shockwave.combo_manual"),
-          variants: [{ duration: "30min + 1x", price: 180 }],
+          variants: [{ duration: "30min + 1x", price: 190 }],
         },
       ],
     },
@@ -131,27 +131,27 @@ export const PricingTable = ({ categories, className }: PricingTableProps) => {
         {
           name: t("sections.pricing.services.physiotherapy.ultrasound"),
           variants: [
-            { duration: "5min", price: 20 },
-            { duration: "10x", price: 200 },
+            { duration: "5min", price: 25 },
+            { duration: "10x", price: 230 },
           ],
         },
         {
           name: t("sections.pricing.services.physiotherapy.sollux"),
           variants: [
-            { duration: "15-20min", price: 20 },
-            { duration: "10x", price: 200 },
+            { duration: "15-20min", price: 25 },
+            { duration: "10x", price: 230 },
           ],
         },
         {
           name: t("sections.pricing.services.physiotherapy.electrotherapy"),
           variants: [
-            { duration: "20min", price: 20 },
-            { duration: "10x", price: 200 },
+            { duration: "20min", price: 25 },
+            { duration: "10x", price: 230 },
           ],
         },
         {
           name: t("sections.pricing.services.physiotherapy.package_30"),
-          variants: [{ duration: "10×3", price: 550 }],
+          variants: [{ duration: "10×3", price: 700 }],
         },
       ],
     },
